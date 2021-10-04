@@ -1,0 +1,13 @@
+CREATE TABLE employees(
+                    employees_id integer PRIMARY KEY,
+                    first_name string,
+                    email string,
+                    phone_number string,
+                    position string);
+                    
+                  
+                    
+                    
+insert into employees (employees_id, first_name,
+                    email, phone_number,position) 
+                    VALUES(?,?,?,?,?);
